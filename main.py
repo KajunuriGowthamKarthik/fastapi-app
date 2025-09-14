@@ -74,7 +74,7 @@ AI_SYSTEM_PROMPT = (
 )
 
 GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_API_KEY = "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"  # Your full valid Groq API key
+GROQ_API_KEY = "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"  # Your full valid Groq API key
 
 @app.post("/post_generator/", response_model=PostResponse)
 @limiter.limit("10/minute")  # Per-IP!
